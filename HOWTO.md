@@ -31,7 +31,7 @@ LineageOS 17.1 for the A30 (SM-A305F)
 
 * Build it
 
-        m -j <insert--a-number-according-to-your-builder-cpu> bacon
+        m -j <number-of-jobs> bacon
 
         (Note: bacon here means the food, not OnePlus One)
 
