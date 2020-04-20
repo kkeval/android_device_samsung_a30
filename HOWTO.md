@@ -12,9 +12,9 @@ LineageOS 17.1 for the A30 (SM-A305F)
 
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
-            <project name="crazo7924/device_samsung_beyond0lte" path="device/samsung/a30" />
-            <project name="crazo7924/device_samsung_exynos7904-common" path="device/samsung/exynos7904-common" remote="github" />
-            <project name="crazo7924/kernel_samsung_exynos7904" path="kernel/samsung/exynos7904" remote="github" />
+            <project name="crazo7924/android_device_samsung_a30" path="device/samsung/a30" />
+            <project name="crazo7924/android_device_samsung_exynos7904-common" path="device/samsung/exynos7904-common" remote="github" />
+            <project name="crazo7924/android_kernel_samsung_exynos7904" path="kernel/samsung/exynos7904" remote="github" revision="master"/>
             <project name="crazo7924/proprietary_vendor_samsung_a30" path="vendor/samsung/a30" remote="github" />
             <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
         </manifest>
