@@ -55,7 +55,6 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
-vendor/lib64/libwvhidl.so
 vendor/lib64/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0.so
 
 # Display-Hardware
@@ -95,13 +94,11 @@ vendor/firmware/Tfa9896.cnt
 
 # GPS/GNSS
 vendor/bin/hw/gpsd
-vendor/bin/hw/lhd
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/gnss/gps.cer
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
-vendor/etc/sensor/lhd.conf
 vendor/lib/libwrappergps.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 vendor/lib64/hw/gps.default.so
