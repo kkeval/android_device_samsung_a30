@@ -15,10 +15,10 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOTANIMATION_HALF_RES := true
 
 ### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a30
+PRODUCT_NAME := rr_a30
 PRODUCT_DEVICE := a30
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A305F
@@ -35,6 +35,6 @@ BUILD_FINGERPRINT := samsung/a30dd/a30:10/QP1A.190711.020/A305FDDU4BTB3:user/rel
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.PDA=$(PRODUCT_PDA_VERSION)
 
-ifneq ($(LINEAGE_DEV_CERTIFICATE),)
-    PRODUCT_DEFAULT_DEV_CERTIFICATE := $(LINEAGE_DEV_CERTIFICATE)
+ifneq ($(RR_DEV_CERTIFICATE),)
+    PRODUCT_DEFAULT_DEV_CERTIFICATE := $(RR_DEV_CERTIFICATE)
 endif
