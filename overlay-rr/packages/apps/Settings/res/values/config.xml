@@ -23,14 +23,6 @@
          3 = right side
     -->
      
-    <!-- Use only if devices have variable intensity support for haptics-->
-    <bool name="config_vibration_supports_multiple_intensities">true</bool>
-
-    <!-- If device supports battery health options -->
-    <bool name="config_supportBatteryHealth">true</bool>
-    <string name="config_batChargeCycle">path</string>
-    <string name="config_batDesCap">path</string>
-    <string name="config_batCurCap">path</string>
-
+   
     <integer name="config_fingerprintSensorLocation">0</integer>
 </resources>
